@@ -1,0 +1,19 @@
+.text {
+  padding: 10px 14px;
+  color: orange;
+  background: white;
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 16px;
+  color: black;
+  display: grid;
+  justify-content: center;
+}
+.card__title {
+  font-size: 20px;
+  position: center;
+}
+
+/*# sourceMappingURL=style.css.map */

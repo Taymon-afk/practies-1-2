@@ -1,0 +1,24 @@
+$primary-color: orange;
+$font-size: 16px;
+
+@mixin text($color){
+    padding: 10px 14px;
+    color: $color;
+    background: white;
+    border-radius: 8px;
+}
+
+.text{
+    @include text($primary-color);
+}
+
+.card{
+    @if $primary-color == orange{
+        border-radius: 16px;
+        color:black;
+    }
+
+    &__title{
+        font-size:20px;
+    }
+}
